@@ -1,0 +1,15 @@
+.root {
+	-fx-background-color: grey;
+}
+
+#type {
+}
+
+#category {
+}
+
+#advance {
+	-jfx-button-type: RAISED;
+	-fx-background-color: blue;
+	-fx-text-fill: white;
+}

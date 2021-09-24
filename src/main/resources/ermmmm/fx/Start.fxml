@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import com.jfoenix.controls.JFXButton?>
+
+<AnchorPane prefHeight="532.0" prefWidth="827.0" stylesheets="@Start.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ermmmm.fx.StartController">
+   <children>
+      <ComboBox id="type" fx:id="typeBox" layoutX="127.0" layoutY="139.0" prefWidth="150.0" />
+      <ComboBox id="category" fx:id="categoryBox" layoutX="383.0" layoutY="139.0" prefWidth="150.0" />
+      <JFXButton id="advance" fx:id="advanceBtn" buttonType="RAISED" layoutX="336.0" layoutY="284.0" onAction="#advance" prefHeight="46.0" prefWidth="104.0" text="Advance" />
+   </children>
+</AnchorPane>
