@@ -3,6 +3,7 @@ package ermmmm.fx;
 import java.util.List;
 
 import javafx.fxml.FXML;
+import javafx.scene.CacheHint;
 import javafx.scene.Node;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -35,6 +36,8 @@ public class WaifuPicsController {
 			Image image = new Image(url, 350, 350, true, true);
 			//System.out.printf("%sx%s%n", image.getWidth(), image.getHeight());
 			ImageView iv = new ImageView(image);
+			iv.setCache(true);
+			iv.setCacheHint(CacheHint.QUALITY);
 			iv.setPreserveRatio(true);
 			//iv.setFitWidth(image.getHeight() / 3.5);
 			//iv.setFitHeight(350);
